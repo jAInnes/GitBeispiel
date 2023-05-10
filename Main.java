@@ -21,5 +21,6 @@ public class Main
         {
             mult = mult * i;
         }
+        System.out.println ("summe:" + summe + " Mult:" + mult);
     }
 }
