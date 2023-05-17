@@ -1,4 +1,4 @@
-
+import java.math.*;
 /**
  * Klasse Main.
  * 
@@ -20,12 +20,12 @@ public class Main
             summe = summe + i;
         }
         
-        int mult = 1;
+        BigInteger mult = new BigInteger("1");
 
         for (int i = 2; i<=obereGrenze; ++i)
 
         {
-            mult = mult * i;
+            mult = mult.multiply(BigInteger.valueOf(i));
         }
         System.out.println ("summe:" + summe + " Mult:" + mult);
     }
