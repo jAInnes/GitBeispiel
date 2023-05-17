@@ -10,17 +10,17 @@ public class Main
 {
     public static void main (String args[])
     {
-        int ob = 50;
-        int summe = 0;
+        Double ob = 50;
+        Double summe = 0;
 
-        int obereGrenze = 20;
+        Double obereGrenze = 20;
         for (int i = 1; i <= obereGrenze; ++i)
 
         {
             summe = summe + i;
         }
         
-        int mult = 1;
+        Double mult = 1;
 
         for (int i = 2; i<=obereGrenze; ++i)
 
