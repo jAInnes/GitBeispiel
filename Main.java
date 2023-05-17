@@ -10,7 +10,7 @@ public class Main
 {
     public static void main (String args[])
     {
-        int ob = 10;
+        int ob = 50;
         int summe = 0;
 
         int obereGrenze = 20;
