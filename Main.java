@@ -13,14 +13,16 @@ public class Main
         int ob = 50;
         int summe = 0;
 
-        int obereGrenze = 20;
+        Double obereGrenze = 20;
         for (int i = 1; i <= obereGrenze; ++i)
 
         {
             summe = summe + i;
         }
         
+
         BigInteger mult = new BigInteger("1");
+
 
         for (int i = 2; i<=obereGrenze; ++i)
 
