@@ -31,10 +31,10 @@ public class Main
         }
         System.out.println ("summe:" + summe + " Mult:" + mult);
 
-        //rebase Update 1
-        //Master Update 2
 
-        
+        //rebase Update 1
+        //rebase Update 2
+
         
 
     }
