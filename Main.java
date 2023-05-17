@@ -13,7 +13,7 @@ public class Main
         int ob = 50;
         int summe = 0;
 
-        Double obereGrenze = 20;
+        int obereGrenze = 20;
         for (int i = 1; i <= obereGrenze; ++i)
 
         {
@@ -31,5 +31,6 @@ public class Main
         }
         System.out.println ("summe:" + summe + " Mult:" + mult);
         //master Update 1
+        //Master Update 2
     }
 }
